@@ -16,7 +16,7 @@ This is a Python Django project for a weather app that allows users to search fo
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/daniel-caleb/Feb-2024-PythonHack2.git
 ```
 
 2. Navigate to the project directory:
@@ -27,6 +27,8 @@ cd weather-app
 
 3. Obtain an API key from Open Weather API and replace YOUR_API_KEY in settings.py with your API key.
 
+***Note:**
+**I have intentionally not removed my API keys just to allow one to view how the project works but for a while after which they will be revoked.**
 
 4 .Run migrations:
 
@@ -34,7 +36,7 @@ cd weather-app
 python manage.py migrate
 ```
 
-5. Start the development server:
+1. Start the development server:
 
 ```bash
 python manage.py runserver
@@ -59,4 +61,4 @@ python manage.py runserver
 This project was created by [daniel-caleb]. It utilizes the Open Weather API for fetching weather data. [https://openweathermap.org/api]
 
 ### License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE.txt).
