@@ -58,7 +58,7 @@ python manage.py runserver
 
 ### Credits
 
-This project was created by [daniel-caleb]. It utilizes the Open Weather API for fetching weather data. [https://openweathermap.org/api]
+This project was created by [daniel-caleb]. It utilizes the [Open Weather API](https://openweathermap.org/api) for fetching weather data.
 
 ### License
 This project is licensed under the [MIT License](LICENSE.txt).
