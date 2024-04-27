@@ -28,7 +28,7 @@ cd weather-app
 3. Obtain an API key from Open Weather API and replace YOUR_API_KEY in settings.py with your API key.
 
 ***Note:**
-**I have intentionally not removed my API keys just to allow one to view how the project works but for a while after which they will be revoked.**
+**I have intentionally not removed my API keys and tokens just to allow one to view how the project works but for a while after which they will be revoked. i.e Google Search API Key and Open Weather Map Token.**
 
 4 .Run migrations:
 
