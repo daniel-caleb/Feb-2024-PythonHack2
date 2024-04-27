@@ -1,18 +1,62 @@
-## Python Bootcamp & Hackathon
-Note: Clone this repo git clone ```https://github.com/PLPAfrica/Feb-2024-PythonHack2.git``` or simply click on ``Fork``
+# Python Bootcamp & Hackathon
 
-Objectives During this bootcamp and hackathon, we will create a Blog website and weather app using a Third-party API, we are aiming to:
+## Weather App
 
-- Understand JSON
-- Understand how to work with Static files in Django
-- Understand API
-- Understand software development & Deployments
-- Understand software testing with pytest
-- Understand Database integration with Python Django
-By the end of the bootcamp/sessions, you will be required to submit a project. Note: Clone this repo, edit to the requirements/instructions assigned by the Instructor
+This is a Python Django project for a weather app that allows users to search for cities and get temperature readings along with the current date and location. The app utilizes the Open Weather API to fetch weather data for the searched cities.
 
-Submit the code for review
+### Features
 
-### Note that the Best project will be rewarded with a certificate and some dollars 😊
+- **Search Bar**: Users can search for cities using the search bar feature.
+- **Temperature Readings**: The app provides temperature readings for the searched cities.
+- **Location and Current Date**: The app displays the location (city) and current date along with the temperature readings.
+- **Background Images**: Background images related to the searched place are displayed to enhance the user experience.
 
-Note that the code will be updated everytime in class
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/weather-app.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd weather-app
+```
+
+3. Obtain an API key from Open Weather API and replace YOUR_API_KEY in settings.py with your API key.
+
+
+4 .Run migrations:
+
+```bash
+python manage.py migrate
+```
+
+5. Start the development server:
+
+```bash
+python manage.py runserver
+```
+
+6. Open your web browser and go to http://127.0.0.1:8000/ to view the app.
+
+
+### Usage
+
+1. Enter the name of the city you want to get weather information for in the search bar.
+2. Click on the search button.
+3. The app will display the temperature readings, location (city), current date, and background images related to the searched place.
+
+### Technologies Used
+- Python
+- Django
+- Open Weather API
+
+### Credits
+
+This project was created by [daniel-caleb]. It utilizes the Open Weather API for fetching weather data. [https://openweathermap.org/api]
+
+### License
+This project is licensed under the MIT License.
