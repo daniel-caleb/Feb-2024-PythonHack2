@@ -27,7 +27,8 @@ cd weather-app
 
 3. Obtain an API key from Open Weather API and replace YOUR_API_KEY in settings.py with your API key.
 
-4 .Run migrations:
+
+4. Run migrations:
 
 ```bash
 python manage.py migrate
