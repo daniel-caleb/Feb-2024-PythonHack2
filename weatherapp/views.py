@@ -11,12 +11,12 @@ def home(request):
     else:
          city = 'Nairobi'     
     
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=3dec1844db6cab9552f30e7b05ab62b5'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid='
     PARAMS = {'units':'metric'}
 
-    API_KEY =  'AIzaSyBp3DVSb5JJxwLM_3hctxjTWPRiQObipzw'
+    API_KEY =  ''
 
-    SEARCH_ENGINE_ID = '12bef698e8b6a4abd'
+    SEARCH_ENGINE_ID = ''
      
     query = city + " 1920x1080"
     page = 1
